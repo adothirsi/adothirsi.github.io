@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Sign Up for Birmingham Updates</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Newsletter Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Sign up for Birmingham Updates!</h2>
+        <form action="#" method="POST">
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name" name="first_name" required><br><br>
+
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" name="last_name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="favourite_attraction">Favourite Birmingham Attraction:</label><br>
+            <input type="radio" id="bullring" name="favourite_attraction" value="bullring">
+            <label for="bullring">Bullring</label><br>
+            <input type="radio" id="canals" name="favourite_attraction" value="canals">
+            <label for="canals">Canals</label><br><br>
+
+            <label for="country">Country:</label><br>
+            <select id="country" name="country">
+                <option value="england">England</option>
+                <option value="scotland">Scotland</option>
+            </select><br><br>
+
+            <label for="bio">Tell us about yourself:</label><br>
+            <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footer-container">
+            <section>
+                <h2>Our Site</h2>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="form.html">Newsletter Signup</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
